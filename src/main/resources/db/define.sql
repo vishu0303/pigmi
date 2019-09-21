@@ -1,0 +1,25 @@
+
+use pigmi;
+
+insert into USER_DETAILS(NAME) values 
+('Akshay')  ,
+('Vishu') ,
+('Ajit');
+
+insert into USER_DETAILS(NAME) values ('Sarvesh');
+
+
+select * from USER_DETAILS;
+
+
+insert into INSTALLMENT_DETAIL (UID,AMOUNT,IMONTH,IYEAR) values
+(1,50,'MARCH',2019),(2,50,'MARCH',2019),(3,50,'MARCH',2019),(4,50,'MARCH',2019);
+insert into INSTALLMENT_DETAIL (UID,AMOUNT,IMONTH,IYEAR) values
+(1,50,'APRIL',2019);
+select * from INSTALLMENT_DETAIL;
+
+select IID,AMOUNT,IMONTH,IYEAR from INSTALLMENT_DETAIL;
+
+select IID,NAME,AMOUNT,IMONTH,IYEAR from USER_DETAILS,INSTALLMENT_DETAIL where USER_DETAILS.UID = 1 and INSTALLMENT_DETAIL.UID = 1;
+
+ select AID,ANAME,ADDRESS from ADMIN_DETAILS;

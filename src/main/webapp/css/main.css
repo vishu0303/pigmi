@@ -1,0 +1,304 @@
+.body{
+	background-color: #342e3a !important;		
+}
+
+/* css for home*/
+.home {
+	background-color: #342e3a;
+	color:white;
+}
+.home .header {
+	background: #ffefae;
+	color:#59637d;
+	position:absolute;
+	left:0px;
+	top:0px;
+	padding:5px;
+	width:100%;
+	font:normal 100% "Segoe UI";
+}
+.home .header .title {
+	margin-left:2%;
+	display:inline-block;
+	font:normal bold 200% "Consolas";
+	color:#fb7d33;
+}
+
+.home .header .subtitle {
+	display:inline-block;
+	font:normal bold 110% "Consolas";
+}
+
+.home .user {
+	position:sticky;
+	float:right;
+	left:94%;
+	width:100px;
+	text-align:center;
+}
+.home .user .photo {
+	margin:auto;
+	top:0px;
+	background-color:#4794ff;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+}
+.home .user .username {
+	background-color:#ea45450a;
+	width:100%;
+	height:25px;
+	font:normal bold 90% "Segoe UI"
+}
+
+.home .menu {
+	position:absolute;
+	left:0px;
+	top:70px;
+	width:10%;
+	height:84%;
+	background:#434150;
+	box-sizing:border-box;
+	font:normal bold 100% "Segoe UI";
+	color:#353533;
+	border-right:solid 2px  #d4d4d1;
+}
+
+.home .menu .menu-item {
+	width:100%;
+	height:40px;
+	background:#fff7f7;
+	padding:2%;
+	text-align:start;
+	padding:5px;
+	box-sizing:border-box;
+	border-bottom:2px solid #e2e2dd;
+}
+.home .menu .menu-item:nth-child(1) {
+	margin-top:10%;
+	background:#ff2020;
+	color:aliceblue;
+}
+
+.home .footer {
+	position:absolute;
+	top:95%;
+	left:0px;
+	width:100%;
+	height:5%;
+	background-color:#110113;
+	color:#a9e844;
+	font:italic normal 100% "Calibri";
+	text-align:end;
+}
+
+.home a {
+	color:#e5e7e8;
+}
+
+.home .page-holder {
+	position:absolute;
+	left:10%;
+	width:90%;
+	top:70px;
+	height:85%;
+	background:#e9f3f0 !important;
+}
+.home .page-holder .page {
+	width:100%;
+	height:100%;
+}
+
+/*************************/
+
+/* define by akshay */
+
+
+.form {
+	position:absolute;
+	left: 50%;
+  	top: 40%;
+	width:65%;
+	height:50%;
+	transform:translate(-50%,-50%);
+}
+
+	.form .header {
+		width:100%;
+		padding:2%;
+		background:#ff741d;
+		text-align:center;
+		font:normal bold 100% "Segoe UI";
+		box-sizing:border-box;
+	}
+
+	.form .header label {
+		color:#ebefee;
+		font: normal bold 200% "Consolas" , "Calibri";
+		letter-spacing:0px;
+		padding:2%;
+	}
+
+	
+	.form .form-body {
+		width:100%;
+		background:#fff0cc;
+		text-align:center;
+		font:normal bold 100% "Segoe UI";
+	}
+
+	.form .button.inline {
+		display:inline-block;
+	}
+	
+	.form .button {
+		width:30%;
+		border-radius:10px;
+		padding:1%;
+		margin-top:2%;
+		background-color:#1b8ae8;
+		border:2px solid #83a2e6;
+		color:#ffe9e9;
+		font: normal bold 120% "Segoe UI";
+	}
+	
+	.form .form-body {
+		padding:2%;
+		box-sizing:border-box;
+		background:aliceblue;
+	}
+	.form .div :hover
+	{
+		border-radius:initial;
+	}
+	.form .div {
+		box-shadow:initial;
+	}
+
+	.form .form-body table{
+		padding:2%;
+		margin:auto;
+    	border-collapse: collapse;
+    	box-sizing:content-box;
+	}
+	.form table td {
+		padding-top: 1%;
+    	padding-bottom: 1%;
+		text-align:start;
+	}
+	.form td label {
+		font:normal bold 110% "Segoe UI";
+		color:#554f58;
+		margin-left:-10%;
+		box-sizing:content-box;
+	}
+
+	.form .form-body table tr {
+		margin: 28%;
+	} 
+
+	.form .button:hover {
+		border:1px solid #d7f5f2;
+		border-radius:10px;
+		color:white;
+		background:#6883f1;
+	}
+	
+	.form .text {
+	width: 100%;
+	height: 10%;
+ 	font-size: 15px;
+ 	background-color: aliceblue;
+ 	padding:2%;
+ 	margin-right:100px;
+	}
+
+	.form input {
+	
+		margin-left:10%;
+		background:aliceblue;
+		border-radius:3px;
+		border:2px solid #bcb9bd;
+		box-sizing:content-box;
+		color:#3c2d1f;
+		font:normal bold 90% "Segoe UI";
+	}
+	.form select {
+		margin-left:10%;
+		background:aliceblue;
+		border-radius:3px;
+		border:2px solid #bcb9bd;
+		box-sizing:content-box;
+		color:#3c2d1f;
+		font:normal bold 90% "Segoe UI";
+	}
+	.form .form-body label {
+		margin-left:-20%;
+	} 
+	.form {
+		border-radius:10px ;
+	}
+	.form .header {
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+	}
+	.form .form-body {
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+	}
+
+.form .info {
+	text-align:center;
+	width:80%;
+	padding:3px;
+	font:italic bold 90% "Segoe UI";
+	background-color:#a6f3ae;
+	color:#1f9024;
+	border:1px solid #0ce60c;
+	box-sizing:content-box;
+	border-radius:4px;
+	margin-left:initial;
+	margin:auto;
+	margin-top:-0px;
+	margin-bottom:12px;
+	margin-left:10%;
+} 
+.form .error {
+	text-align:center;
+	width:80%;
+	padding:3px;
+	font:italic bold 90% "Segoe UI";
+	background-color:#f7d7c9;
+	color:#ff5934;
+	border:1px solid #f5a386;
+	box-sizing:content-box;
+	border-radius:4px;
+	margin-left:initial;
+	margin:auto;
+	margin-top:-0px;
+	margin-bottom:12px;
+	margin-left:10%;
+} 
+
+
+/*page specific css*/
+.signup .button + .button , .login .button + .button {
+		margin-left:3%;
+		background-color:#fd781a;
+		border:2px solid #ff9030;
+	}
+
+	
+.login .forget-pswd {
+	font:italic bold 90% "Segoe UI";
+	color:#8888e2;
+	float:right;
+}
+
+
+.login a {
+	color: inherit; /* blue colors for links too */
+  	text-decoration: inherit;
+  	width:initial;
+  	box-sizing:initial;
+}
