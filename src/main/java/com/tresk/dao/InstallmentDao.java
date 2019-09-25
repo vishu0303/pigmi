@@ -1,9 +1,13 @@
 package com.tresk.dao;
 
+import java.util.Map;
+
 import com.tresk.dto.Installment;
 
 public interface InstallmentDao {
 	
-	public int addInstallment(Installment installment);
+	public void addInstallment(Installment installment)throws Exception;
+	
+	public Map<String , String> getMembersList()throws Exception;
 
 }

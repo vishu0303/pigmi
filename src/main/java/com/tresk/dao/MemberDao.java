@@ -4,5 +4,5 @@ import com.tresk.dto.Member;
 
 public interface MemberDao {
 	
-	public int addMember(Member member);
+	public void addMember(Member member)throws Exception;
 }

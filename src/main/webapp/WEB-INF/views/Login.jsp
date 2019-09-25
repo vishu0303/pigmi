@@ -27,7 +27,7 @@
 			<table class="table">
 				<tr>
 					<td><label>User Name</label></td>
-					<td><input class="text" type="text" id="username" name="username" ></select></td>
+					<td><input class="text" type="text" id="username" name="username" ></td>
 				</tr>
 				<tr>
 					<td><label>Password</label></td>

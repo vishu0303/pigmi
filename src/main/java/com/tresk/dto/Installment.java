@@ -2,9 +2,7 @@ package com.tresk.dto;
 
 public class Installment {
 		
-	private String name;
-	
-
+	private String memberId;
 	private String year;
 	private String month;
 	private String investment;
@@ -14,21 +12,21 @@ public class Installment {
 		
 	}
 	
-		public Installment(String name, String year, String month, String investment, String fine) {
+		public Installment(String memberId, String year, String month, String investment, String fine) {
 	
-		this.name = name;
+		this.memberId = memberId;
 		this.year = year;
 		this.month = month;
 		this.investment = investment;
 		this.fine = fine;
 	}
-
-		public String getName() {
-			return name;
+		
+		public String getMemberId() {
+			return memberId;
 		}
 
-		public void setName(String name) {
-			this.name = name;
+		public void setMemberId(String memberId) {
+			this.memberId = memberId;
 		}
 
 		public String getYear() {

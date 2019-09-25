@@ -2,6 +2,7 @@ package com.tresk.dto;
 
 public class Member {
 	
+	private String memberId;
 	private String name;
 	private String mobileNo;
 	private String address;
@@ -17,12 +18,21 @@ public class Member {
 		this.address = address;
 	}
 
+	
 	public String getName() {
 		return name;
 	}
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getMemberId() {
+		return memberId;
+	}
+
+	public void setMemberId(String memberId) {
+		this.memberId = memberId;
 	}
 
 	public String getMobileNo() {
